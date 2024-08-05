@@ -1,6 +1,6 @@
 //your JS code here. If required.
 window.onload = function() {
-    document.getElementById('change_button').addEventListener('click', function() {
+    document.getElementById('change').addEventListener('click', function() {
         // Reset all grid items to transparent
         const gridItems = document.getElementsByClassName('grid-item');
         for (let item of gridItems) {
@@ -20,7 +20,7 @@ window.onload = function() {
         }
     });
 
-    document.getElementById('reset_button').addEventListener('click', function() {
+    document.getElementById('reset').addEventListener('click', function() {
         // Reset all grid items to transparent
         const gridItems = document.getElementsByClassName('grid-item');
         for (let item of gridItems) {
